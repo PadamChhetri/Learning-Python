@@ -7,7 +7,7 @@ print("My Age is :", age)
 
 
 # Sum of Two numbers
-a=10
+a=11
 b=25
 sum=a+b
 print("Sum is:",sum)
