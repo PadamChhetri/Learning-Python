@@ -1,6 +1,6 @@
 name='padam' #"Padam" || '''Padam'''
 age=23
-price=24.99
+price=24.95
 old= False
 a= None 
 
