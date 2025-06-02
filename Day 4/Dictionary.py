@@ -6,6 +6,7 @@ dict={
   "subject" : ["python","C++"],
   "topics" : ("Dictionary","set"),
   "is_adult": True,
-  "marks" : 91.5
+  "cgpa" : 91.5
 }
 print(dict)
+
