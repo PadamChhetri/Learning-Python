@@ -10,7 +10,7 @@ dict={
 print(dict["name"])  # Access value using the key
 
 dict["name"]="Adam" #can be changed(overwrite) and it is mutable(changable) 
-dict["surname"]="Chhetri" #can add key and value 
+dict["surname"]="Chhetri" #add new key and value 
 print(dict)
 
 # Remove a key-value pair
