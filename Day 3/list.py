@@ -3,7 +3,7 @@
 marks=["Padam",82,"Chhetri"]
 print(marks[1])
 print(len(marks))
-marks[0]="Mr"
+marks[0]="Mr" #allowed it will change to Mr
 print(marks)
 '''
 
