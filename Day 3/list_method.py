@@ -1,5 +1,5 @@
 list=[2,1,3]
-list.append(4) #add one element at the end
+list.append(4) #add one element 4 at the end
 print(list)
 
 list.sort() #Sorts in ascending orders
