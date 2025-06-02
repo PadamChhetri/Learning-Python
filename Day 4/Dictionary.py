@@ -1,4 +1,3 @@
-'''
 dict={
   "name": "Padam",
   "age": 21,
@@ -21,7 +20,7 @@ print(dict)
 # Remove using pop
 # dict.pop('subject')
 # print(dict)
-'''
+
 
 '''
 #Strated with empty dictionary
