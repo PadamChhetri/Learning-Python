@@ -1,7 +1,7 @@
 tuple=(54,568,489,1654,15848,)
 # print(type(tupke))
 # print(tuple)
-# tuple[0]=456  #cannot be changed
+# tuple[0]=456  #cannot be changed not allowed 
 print(tuple[1:2])
 print(tuple[::2]) #means use a step of 2 — skip every other element.
 print(tuple[2:])
