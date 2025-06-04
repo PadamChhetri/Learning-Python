@@ -1,6 +1,7 @@
-# num=[1,2,3,5,4,6,"Potato"]
-# for val in num:
-#   print(val)
+'''
+num=[1,2,3,5,4,6,"Potato"]
+for val in num:
+  print(val)
 
 str="Potato"
 for char in str:
@@ -8,3 +9,30 @@ for char in str:
     print("o found")
     break
   print(char)
+'''
+
+'''
+#Range
+#seq=range(5)
+#for i in seq:
+for i in range(10): #range(stop)
+  print(i)
+
+
+seq=range(5,10) #range(start?,stop)
+for i in seq:
+  print(i)
+'''
+
+# seq=range(1,10,2) #range(start?,stop,step?)
+# for i in seq:
+#   print(i)
+
+#Even number from 1 to 100
+for i in range(2,101,2):
+  print(i)
+
+
+#Odd number from 1 to 100
+for i in range(1,100,2):
+  print(i)
