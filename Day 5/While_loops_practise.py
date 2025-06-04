@@ -30,6 +30,7 @@ while i <= len(nums)-1:
  i+=1
 '''
 
+'''
 #search for the number x in the tuple using loop
 nums=(5,74,46,8451,56,2315,315,46)
 x=46
@@ -40,3 +41,25 @@ while i < len(nums): #condition
   else:
     print("not found")
   i+=1
+'''
+
+'''
+#find the sum of first n numbers
+n=5
+sum=0
+i=1
+while i <= n:
+  sum+=i
+  i += 1  # increment step
+print("The sum of number is:",sum)
+'''
+
+#Find the factorial of firt n number
+n=5
+i=1
+fact=1
+while (i<=n):
+  fact*=i
+  i+=1
+print("factorial number is:",fact)
+
