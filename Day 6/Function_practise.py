@@ -5,5 +5,5 @@ cities=["london","Kathmandu"]
 def print_len(list):
   print(len(list))
 print_len(num)
-print_len(cities)
+print_len(citiess)
 

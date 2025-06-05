@@ -24,4 +24,4 @@ def cal_mul(a,b):
   mul=a*b
   print(mul)
   return mul
-cal_mul(4,5)
+cal_mul(4,6)
