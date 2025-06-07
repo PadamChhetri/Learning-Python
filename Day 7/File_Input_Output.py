@@ -22,6 +22,7 @@ f=open("demo1.txt","r+")
 f.write("abc") #overwirte abc from starting of file
 data=f.read()
 print(data)
+f.close()
 '''
 
 '''
@@ -29,6 +30,7 @@ f=open("demo1.txt","w+")
 f.write("abc") #trauncate(delete) all and write abc
 data=f.read()
 print(data)
+f.close()
 '''
 
 
@@ -36,3 +38,4 @@ f=open("demo1.txt","a+")
 f.write("abc") #append new abc at the end
 data=f.read()
 print(data)
+f.close()
