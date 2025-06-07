@@ -1,3 +1,4 @@
 Hi Everyone
- Welcome to learning python class
- It is a File input and output learning
+Welcome to learning java class
+using java.
+I like programming in java
