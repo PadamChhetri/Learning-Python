@@ -1,0 +1,3 @@
+Hi Everyone
+ Welcome to learning python class
+ It is a File input and output learning

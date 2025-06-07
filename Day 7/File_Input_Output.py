@@ -8,7 +8,7 @@ f.close()
 '''
 
 #Write to a file
-# f=open("demo.txt","w")
+# f=open("demo.txt","w") #Create a new demo.txt file and weite the text
 # f.write("Hello")
 # f.close()
 
