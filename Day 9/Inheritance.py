@@ -45,3 +45,20 @@ car1.start()
 print(car1.type)
 '''
 
+'''
+#Multiple inheritance
+class A:
+  VarA="Welcome to class A"
+
+class B:
+  VarB="Welcome to class B"
+
+class C(A,B):
+  VarC="Welcome to class C"
+
+C1=C()
+
+print(C1.VarA)
+print(C1.VarB)
+print(C1.VarC)
+'''
