@@ -15,6 +15,8 @@ print(c1.Area())
 print(c1.Perimeter())
 '''
 
+
+'''
 class Employee:
   def __init__(self,role,dept,salary):
     self.role=role
@@ -34,3 +36,19 @@ class Engineer(Employee): #Inherit from Employee
 
 Eng1=Engineer("Padam",22)
 Eng1.showDetails()
+'''
+
+#Use Dunder function that order 1 is greater than order 2
+class order:
+  def __init__(self,item,price):
+    self.item=item
+    self.price=price
+
+  def __gt__(self,ord2):
+    return self.price > ord2.price
+
+odr1=order("Chipes",20)
+odr2=order("nOODLES",22)
+
+print(odr1>odr2)
+  
