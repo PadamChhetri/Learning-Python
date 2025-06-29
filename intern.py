@@ -40,6 +40,8 @@ else:
 # dog=Dog()
 # print(dog.speak())
 
+
+'''
 class car:
   def start(self):
     print("car started")
@@ -55,70 +57,115 @@ car1=Tyotacar("BMW")
 car2=Tyotacar("lAMBO")
 print(car1.start())
 print(car2.name)
+'''
 
   
+
 '''
-#Single Inheritance
-
-class car: #parent class
-  @staticmethod
-  def start():
-    print("car strated")
-
-  @staticmethod
-  def stop():
-    print("Stop")
-
-class Tyotacar(car): #Child Class
-  def __init__(self,name):
+class student:
+  def __init__(self,name,age):
     self.name=name
+    self.age=age
+  
+  #method
 
-car1=Tyotacar("BMW")
-car2=Tyotacar("lAMBO")
-print(car1.start())
-print(car2.name)
+  def welcome(self):
+    print("welcome",self.name)
+  
+  def num(self):
+    print("age is",self.age)
+
+s1=student("padam",10)
+
+print(s1.age)
+print(s1.name)
 '''
 
-'''
-#Multi-Level Inheritance
 
-class car: #parent class
-  @staticmethod
-  def start():
-    print("car strated")
+#Recursion Function
+# def show(n):
+#   if(n==0):
+#     return
+#   print(n)
+#   show(n-1)
+# show(10)
 
-  @staticmethod
-  def stop():
-    print("Stop")
+# #Factorial of given number
+# def fact(n):
+#   if(n==0 or n==1):
+#     return 1
+#   else:
+#     return fact(n-1)*n
+# print(fact(5))
 
-class Toyotacar(car): #Child Class
-  def __init__(self,brand):
-    self.name=brand
+#WAP to calculate the sum of first n number
+# def sum(n):
+#   if n==0:
+#     return 1
+#   else:
+#     return sum(n-1)+n
+# print(sum(5))
 
-class fortuner(Toyotacar): #Child Class
-  def __init__(self,type):
-    self.type=type
 
-car1=fortuner("diseal")
-car1.start()
-print(car1.type)
-'''
+#swap value
+# a = 5
+# b = 10
 
-'''
-#Multiple inheritance
-class A:
-  VarA="Welcome to class A"
+# temp=a
+# a=b
+# b=temp
 
-class B:
-  VarB="Welcome to class B"
+# print("After swap:")
+# print("a =", a)
+# print("b =", b)
 
-class C(A,B):
-  VarC="Welcome to class C"
 
-C1=C()
+# #Palindrome
+def is_palindrome(s):
+    # Base case: if the string is empty or has 1 character, it's a palindrome
+    if len(s) <= 1:
+        return True
+    # Check if first and last characters are the same
+    if s[0] != s[-1]:
+        return False
+    # Recursive call on the substring without first and last chars
+    return is_palindrome(s[1:-1])
 
-print(C1.VarA)
-print(C1.VarB)
-print(C1.VarC)
-'''
+# Test examples
+print(is_palindrome("madam"))  # True
+print(is_palindrome("hello"))  # False
+print(is_palindrome("121"))    # True
+
+
+def is_palindrome(s):
+    if len(s) <=1:
+        return True
+    if s[0]!=s[-1]:
+      return False
+
+    return is_palindrome(s[1:-1])
+print(is_palindrome("madam"))  # True
+print(is_palindrome("hello"))  # False
+  
+# def is_palindrome(s):
+#     return s == s[::-1]
+
+# print(is_palindrome("madam"))  # True
+# print(is_palindrome("hello"))  # False
+
+
+# s="programming"
+# print(s[-3:])    # 'ing'     (last 3 characters)
+# print(s[:-3])    # 'Programm' (everything except last 3)
+# print(s[::-1])   # 'gnimmargorP' (full reverse)
+# lst = [1, 2, 3, 4, 5]
+# print(lst[::-1]) # [5, 4, 3, 2, 1]
+# print(s[::-2])   # 'gmaoP' (reverse, every 2nd char)
+
+# lst = ['a', 'b', 'c', 'd', 'e', 'f']
+# print(lst[2:5])   # ['c', 'd', 'e']
+# print(lst[:3])    # ['a', 'b', 'c']
+# print(lst[::2])   # ['a', 'c', 'e']
+# print(lst[::-1])  # ['f', 'e', 'd', 'c', 'b', 'a']
+
 
