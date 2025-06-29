@@ -10,6 +10,20 @@ print(is_prime(4))
 
 
 
+
+def is_prime(n):
+    if n > 1:
+        for i in range(2, n):
+            if n % i == 0:
+                print(f"{n} is not a prime number")
+                return
+        print(n,"is a prime number")
+    else:
+        print(n," is not a prime number")
+
+is_prime(5)
+
+
 num = int(input("Enter a number: "))
 
 if num > 1:
