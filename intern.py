@@ -119,7 +119,7 @@ print(s1.name)
 # print("a =", a)
 # print("b =", b)
 
-
+'''
 # #Palindrome
 def is_palindrome(s):
     # Base case: if the string is empty or has 1 character, it's a palindrome
@@ -135,8 +135,9 @@ def is_palindrome(s):
 print(is_palindrome("madam"))  # True
 print(is_palindrome("hello"))  # False
 print(is_palindrome("121"))    # True
+'''
 
-
+'''
 def is_palindrome(s):
     if len(s) <=1:
         return True
@@ -152,7 +153,7 @@ print(is_palindrome("hello"))  # False
 
 # print(is_palindrome("madam"))  # True
 # print(is_palindrome("hello"))  # False
-
+'''
 
 # s="programming"
 # print(s[-3:])    # 'ing'     (last 3 characters)
@@ -169,3 +170,72 @@ print(is_palindrome("hello"))  # False
 # print(lst[::-1])  # ['f', 'e', 'd', 'c', 'b', 'a']
 
 
+#Abstraction
+# class car:
+#   def __init__(self):
+#     self.acc=False
+#     self.brake=False
+#     self.clautch=False
+  
+#   def start(self):
+#     self.acc= True
+#     self.clautch=True
+#     print("Car Start")
+# car1=car()
+# car1.start()
+
+'''
+list=[1,2,3,2,1]
+copy=list.copy()
+copy.reverse()
+
+if(copy == list):
+  print("It is palindrome")
+else:
+  print("It is not palindrome")
+
+
+lists=[1,2,3,2,1]
+reverse=lists[::-1]
+if(reverse == lists):
+  print("It is palindrome")
+else:
+  print("It is not palindrome")
+'''
+
+
+# tup=(1,2,3,4,5,6)
+# x=5
+
+# for val in tup:
+#   if(val == x):
+#     print("found")
+#   else:
+#     print("not found")
+
+
+#Find the sum of first n number
+# n=int(input("Enter a number:"))
+# sum=0
+
+# for i in range(1,n+1):
+#   sum+=i
+# print("The sum of number is:",sum)
+
+#Odd number from 1 to 100
+# for i in range(2,100,2):
+#   print(i)
+
+#Multiplication
+a=int(input("Enter a number:"))
+for i in range(1,11):
+   print (a*i)
+
+#Factorial
+# n=int(input("Enter a number:"))
+# fact=1
+
+# for i in range(1,n+1):
+#   fact=fact*i
+
+# print(fact)

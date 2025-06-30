@@ -17,5 +17,9 @@ print("Average=", (num1+num2)/2)
 #print True if a is greater then b or else print b 
 a=float(input("Enter the first number:"))
 b=float(input("Enter the second number:"))
-print(a>=b)
+
+if (a>=b):
+  print(a)
+else:
+  print(b)
 

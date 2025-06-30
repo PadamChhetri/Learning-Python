@@ -1,5 +1,6 @@
 #Create account class with 2 attributes -balance and account no. Create method of debit,credit and printing the balance
 class Account():
+  #constructor Method
   def __init__(self,bal,acc):
     self.bal=bal
     self.acc=acc
