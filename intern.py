@@ -227,9 +227,9 @@ else:
 #   print(i)
 
 #Multiplication
-a=int(input("Enter a number:"))
-for i in range(1,11):
-   print (a*i)
+# a=int(input("Enter a number:"))
+# for i in range(1,11):
+#    print (a*i)
 
 #Factorial
 # n=int(input("Enter a number:"))
